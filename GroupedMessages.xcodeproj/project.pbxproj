@@ -12,6 +12,7 @@
 		E24CE4DA21451CA7003D3B54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24CE4D821451CA7003D3B54 /* Main.storyboard */; };
 		E24CE4DC21451CA9003D3B54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24CE4DB21451CA9003D3B54 /* Assets.xcassets */; };
 		E24CE4DF21451CA9003D3B54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24CE4DD21451CA9003D3B54 /* LaunchScreen.storyboard */; };
+		E24CE4E72145200A003D3B54 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24CE4E62145200A003D3B54 /* ChatMessageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E24CE4DB21451CA9003D3B54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24CE4DE21451CA9003D3B54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E24CE4E021451CA9003D3B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E24CE4E62145200A003D3B54 /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E24CE4D421451CA7003D3B54 /* AppDelegate.swift */,
 				E24CE4D621451CA7003D3B54 /* ViewController.swift */,
+				E24CE4E62145200A003D3B54 /* ChatMessageCell.swift */,
 				E24CE4D821451CA7003D3B54 /* Main.storyboard */,
 				E24CE4DB21451CA9003D3B54 /* Assets.xcassets */,
 				E24CE4DD21451CA9003D3B54 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24CE4E72145200A003D3B54 /* ChatMessageCell.swift in Sources */,
 				E24CE4D721451CA7003D3B54 /* ViewController.swift in Sources */,
 				E24CE4D521451CA7003D3B54 /* AppDelegate.swift in Sources */,
 			);
